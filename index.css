@@ -1,0 +1,933 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* nav bar top start on top here */
+.top-nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.control {
+    display: flex;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #ff7200;
+    justify-content: space-between;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.page-top ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.page-top a {
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo-top h1 {
+    margin-top: 10px;
+}
+
+.logo-top h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.search {
+    margin-top: 10px;
+    width: 30%;
+    display: flex;
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.search input {
+    width: 70%;
+    height: 100%;
+    outline: none;
+    margin-left: 70px;
+    border: none;
+    opacity: 3px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.search span {
+    position: absolute;
+    margin-top: 5.5px;
+    height: 100%;
+    color: white;
+}
+
+.search input::placeholder {
+    padding: 20px;
+    color: #cce7d0;
+}
+
+/* nav bar top ends on top here */
+.container {
+    background-color: whitesmoke;
+    height: auto;
+    display: flex;
+}
+
+input[placeholder] {
+    color: orangered;
+}
+
+/* menu */
+.menu {
+    width: 10%;
+    height: auto;
+}
+
+/* center */
+.center {
+    width: 85%;
+    height: auto;
+}
+
+/* Ads */
+.Ads {
+    width: 15%;
+    height: auto;
+    position: sticky;
+    top: 0;
+}
+
+.menu {
+    background-color: #884005;
+    cursor: pointer;
+    min-height: 100vh;
+}
+
+.menu ul {
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu ul li {
+    padding: 10px;
+
+}
+
+.menu ul li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: #ff7200;
+    transform: scale(0.4);
+}
+
+.header-top {
+    margin-top: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0, 0.4);
+}
+
+.header-top h4 {
+    text-align: center;
+    font-size: 24px;
+    color: #ff7200;
+}
+
+.cake-fimage {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cake .cake-in img {
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#sm-banner {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 25px;
+    align-items: center;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 450px;
+    height: 50vh;
+    padding: 30px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+#sm-banner h2 {
+    color: rgb(255, 255, 255);
+    /*to be white after download picha usika */
+    font-size: 28px;
+    font-weight: 800px;
+}
+
+#sm-banner h4 {
+    color: rgb(255, 255, 255);
+    /*to be white after download picha usika */
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+#sm-banner span {
+    color: rgb(255, 255, 255);
+    /*to be white after download picha usika */
+    font-size: 14px;
+    font-weight: 500px;
+    padding-bottom: 15px;
+}
+
+.anotherbanner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+.anotherbanner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 30%;
+    height: 30vh;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* adjust images zako apa summer images and t-shit images download later */
+
+.box3 {
+    background-image: url(cake/Rasmalai-Cakebig.png);
+    border-radius: 10px;
+}
+
+.box2 {
+    background-image: url(uploads/2.jpg);
+    border-radius: 10px;
+}
+
+.box1 {
+    background-image: url(uploads/1.jpg);
+    border-radius: 10px;
+}
+
+.boxt {
+    background-image: url(uploads/3.jpg);
+    border-radius: 10px;
+}
+
+.boxt1 {
+    background-image: url(uploads/6.jpg);
+    border-radius: 10px;
+}
+
+.anotherbanner h2 {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 22px;
+
+}
+
+.anotherbanner h3 {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 15px;
+
+}
+
+#sm-banner button {
+    font-size: 13px;
+    font-weight: 600px;
+    padding: 11px 18px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid white;
+    outline: none;
+    transition: .5s ease-in-out;
+}
+
+#sm-banner button:hover {
+    background: rgb(255, 255, 255);
+    color: #000000;
+    font-weight: 500;
+}
+
+/* Pick A Flavour  */
+#product1 {
+    text-align: center;
+    z-index: -1;
+}
+
+#product1 .descheader {
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 900;
+}
+
+#product1 .product-container {
+    /* display: flex;
+    justify-content: space-evenly; */
+    padding-top: 20px;
+    /* flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#product1 .pro {
+    width: 23px;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    position: relative;
+    transition: 0.2s ease-in-out;
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+    transform: translate(-.1rem);
+}
+
+#product1 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span {
+    color: orangered;
+    font-size: 12px;
+}
+
+#product1 .pro .des h5 {
+    padding: 7px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+#product1 .pro .des i {
+    font-size: 12px;
+    color: gold;
+}
+
+#product1 .pro .des h4 {
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(8, 75, 75);
+}
+
+#product1 .pro .buy {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+    color: gold;
+    border: 1px solid rgb(223, 223, 223);
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+#product1 .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Ads */
+#slider {
+    width: 100%;
+}
+
+.slide {
+    width: 100%;
+    /* display: none; */
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: 80%;
+}
+
+.slide.active {
+    display: block;
+}
+
+/* ends */
+
+
+
+/* footer */
+.footer {
+    position: absolute;
+    background-color: #000000;
+    width: 100%;
+    height: auto;
+}
+
+.footer-comp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.logo span {
+    color: #ff7200;
+}
+
+.footer-comp .text {
+    width: 200px;
+    margin-top: 30px;
+}
+
+.logo ul {
+    margin-top: 5px;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.logo ul li {
+    color: white;
+}
+
+.logo .contact ul {
+    margin-top: 20px;
+}
+
+.logo .contact ul li {
+    color: white;
+}
+
+.link {
+    margin-top: 30px;
+}
+
+.link ul {
+    margin-top: 3px;
+}
+
+.link ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.link ul li {
+    padding: 3px;
+}
+
+.Service ul {
+    margin-top: 3px;
+    list-style: none;
+}
+
+.Service ul li {
+
+    margin-top: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.news p {
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    outline: none;
+}
+
+input::placeholder {
+    color: #ff7200;
+    margin-left: 10px;
+
+}
+
+.news button {
+    background-color: #ff7200;
+    border-color: #ff7200;
+    color: white;
+}
+
+.fIcons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.fIcon {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.blue:hover {
+    background-color: rgb(21, 23, 167);
+}
+
+.skyblue:hover {
+    background-color: rgb(9, 165, 226);
+}
+
+.pink:hover {
+    background-color: rgb(248, 122, 143);
+}
+
+.green:hover {
+    background-color: rgb(74, 184, 74);
+}
+
+.copy {
+    color: #ff7200;
+}
+
+/* top animation */
+.imgtop {
+    background-image: url(uploads/5.jpg) !important;
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.cake-images {
+    width: 100%;
+    height: 50vh;
+}
+
+.cake-images {
+    position: relative;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    animation-name: animate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-composition: initial;
+
+}
+
+@keyframes animate {
+
+    0% {
+        background-image: url(uploads/5.jpg);
+    }
+
+    40% {
+        background-image: url(uploads/1.jpg);
+    }
+
+    80% {
+        background-image: url(uploads/2.jpg);
+    }
+
+    100% {
+        background-image: url(uploads/6.jpg);
+    }
+}
+
+/* formtop */
+.box .form {
+    top: 0%;
+    left: 50%;
+    width: 30%;
+    height: 63%;
+    transform: translate(-50%, -50%)scale(.1);
+    position: fixed;
+    background-color: #ff7200;
+    place-items: center;
+    visibility: hidden;
+    transition: transform .4s, top .4s;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0, 0.4);
+    z-index: 2;
+
+}
+
+.box input {
+    height: 20px;
+    width: 80%;
+    outline: none;
+    display: block;
+    margin: 10px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 6px;
+
+}
+
+.box label {
+    margin: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+.box button {
+    background-color: white;
+    color: #ff7200;
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    font-size: large;
+}
+
+.open {
+    visibility: visible !important;
+    transform: translate(-50%, -50%)scale(1) !important;
+    top: 50% !important;
+}
+
+/* order page css start on this section */
+.prodetalis {
+    display: flex;
+    margin-top: 20px;
+}
+
+.prodetalis .single-pro-image {
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 1px;
+}
+
+#mainimg {
+    border-radius: 10px;
+}
+
+.small-image {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 10%;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.prodetalis .single-pro-detalis {
+    width: 50%;
+    padding-top: 30px;
+    margin-left: 20px;
+    background-color: whitesmoke;
+    box-shadow: 20px 20px 30px rgba(0.0.0.0, 9);
+}
+
+.prodetalis .single-pro-detalis h4 {
+    padding: 40px 0 20px 0;
+    color: #ff7200;
+}
+
+.prodetalis .single-pro-detalis h2 {
+    font-size: 26px;
+}
+
+.prodetalis .single-pro-detalis select {
+    padding: 5px 10px;
+    display: block;
+    margin-top: 10px;
+    outline: none;
+    border-color: #884005;
+}
+
+.prodetalis .single-pro-detalis input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+}
+
+.prodetalis .single-pro-detalis button {
+    font-size: 16px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: #ff7200;
+    transition: .5s ease-in-out;
+}
+
+.prodetalis .single-pro-detalis button:hover {
+    background-color: #884005;
+}
+
+.prodetalis .single-pro-detalis span {
+    line-height: 24px;
+    text-justify: distribute;
+}
+
+#mainimg {
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.04);
+}
+
+/* order page css end here */
+/* about us page css start over here */
+.about-head {
+    margin-top: 70px;
+    display: flex;
+}
+
+.about-head img {
+    width: 50%;
+    height: auto;
+}
+
+.about-head div {
+    padding-left: 40px;
+    margin-top: 30px;
+    padding-right: 10px;
+}
+
+.about-head div p {
+    line-height: 20px;
+}
+
+.kistari {
+    background-color: gold;
+    padding: 2px;
+    border: none;
+}
+
+.kistar {
+    background-color: gold;
+    padding: 1px;
+    border: none;
+    width: 100px;
+    margin-bottom: 10px;
+
+}
+
+.about-head h2 {
+    color: #ff7200;
+    margin-bottom: 10px;
+}
+
+.about-head button {
+    padding: 10px;
+    color: white;
+    background-color: #ff7200;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+}
+
+.about-head button a {
+    color: white;
+    text-decoration: none;
+}
+
+.about-head button:hover {
+    background-color: #884005;
+}
+
+.cake-video-show {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.cake-video-show h1 {
+    color: #ff7200;
+    font-size: xx-large;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.cake-video-show .video {
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+
+}
+
+.cake-video-show .video video {
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.featureDesc {
+    color: gray;
+    width: 50%;
+    height: 100px;
+}
+
+.featureTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.featureIcon {
+    width: 50px;
+    height: 50px;
+}
+
+/* about us css end on here */
+
+/* contact us page css passed here other are inline css */
+.contact {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    height: auto;
+}
+.contact .contact-info{
+    padding: 10px;
+}
+.contact .contact-info h1{
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: #ff7200;
+}
+.contact .contact-info h4{
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: #884005;
+}
+.contact .contact-locations li{
+    list-style: none;
+    padding-left: 10px;
+    color: #884005;
+}
+.contact .contact-locations i{
+    padding: 5px;
+    color: #884005;
+}
+/* contact us page css ends here other are inline css */
+
+
+.flex{
+    display: flex;
+}
+.map img{
+    width: 700px;
+    margin-left: 24px;
+    height: auto;
+    border-radius: 5px;
+}
+.info-contact{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.info-contact h1{
+    text-align: center;
+    
+}
+.Service-pro{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.info-cont{
+    display: flex;
+    justify-content: space-around;
+}
+.Service-pro img{
+    height: 250px;
+    border-radius: 10px;
+}
+.Service-pro h5{
+    text-align: center;
+    margin-top: 10px;
+    color: orange;
+}
+
+.desc{
+    place-items: center;
+}
+.btn-info{
+    margin-top: 50px;
+    padding: 10px;
+    font-family: sans-serif;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    transition: .5s;
+}
+.btn-info:hover{
+    background-color: #884005;
+}
+
+
